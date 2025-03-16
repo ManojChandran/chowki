@@ -1,0 +1,9 @@
+apiVersion: crd.chowki.events.io/v1
+kind: Chowkidar
+metadata:
+  labels:
+    app.kubernetes.io/name: chowki
+    app.kubernetes.io/managed-by: kustomize
+  name: chowkidar-sample
+spec:
+  # TODO(user): Add fields here

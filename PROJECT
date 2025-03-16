@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: chowki
 repo: github.com/ManojChandran/chowki
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: chowki.events.io
+  group: crd
+  kind: Chowkidar
+  path: github.com/ManojChandran/chowki/api/v1
+  version: v1
 version: "3"
